@@ -19,7 +19,10 @@ int main()
 		if(array[i] < 0)
 		{
 			segmentLength = i - lastIndex;
-			lastIndex = i;
+			if(i != 0)
+				lastIndex = i;
+			else
+				lastIndex = i+1;
 			if(currentSum > maxSum)
 			{
 				maxSum = currentSum;
