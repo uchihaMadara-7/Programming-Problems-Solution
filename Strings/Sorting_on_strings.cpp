@@ -9,10 +9,10 @@ void StringSort(string *str, int n)
 	{
 		for(int x=1;x<n;x++)
 		{
-			int key = array[x];
+			string key = str[x];
 			int j = x-1;
 
-			while(j >= 0 && str[j] > key)
+			while(j >= 0 && str[j][i] > key[i])
 			{
 				str[j+1] = str[j];
 				j--;
@@ -20,9 +20,13 @@ void StringSort(string *str, int n)
 
 			str[j+1] = key;
 		}
-		cout << endl;
 	}
 }
+
+/*
+    3
+    abc acb bca
+*/
 
 int main()
 {
@@ -34,5 +38,11 @@ int main()
 		cin >> str[i];
 
     StringSort(str, n);
+
+    for(int i=0;i<n;i++)
+        cout << str[i] <<" ";
+    cout << endl;
+
+    return 0;
 
 }
