@@ -1,3 +1,9 @@
+/*
+	--- Question Statement ---
+	
+	Check if a number is a prime or not. Prime number are those which have only two factors (1 and itself)
+*/
+
 #include <iostream>
 #include <cmath>
 
