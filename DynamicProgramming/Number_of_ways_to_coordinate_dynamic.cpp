@@ -1,3 +1,9 @@
+/*
+	--- Question Statement ---
+	
+	Find the total number of paths possible from a coordinate [m,n] to [0,0] by taking steps either left or down.
+*/
+
 #include <iostream>
 
 using namespace std;
