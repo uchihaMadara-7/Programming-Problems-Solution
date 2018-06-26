@@ -1,3 +1,9 @@
+/*
+	--- Question Statement ---
+	
+	Print all the factors of a given number under square root complexity.
+*/
+
 #include <iostream>
 #include <cmath>
 
