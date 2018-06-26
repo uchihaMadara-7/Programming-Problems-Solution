@@ -1,3 +1,9 @@
+/*
+	--- Question Statement ---
+	
+	Find if two numbers are co-primes of each other. Co-prime are those which does not have anything in common.
+*/
+
 #include <iostream>
 
 using namespace std;
