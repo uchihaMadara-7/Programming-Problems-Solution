@@ -1,3 +1,9 @@
+/*
+	--- Question Statement ---
+	
+	Given two coordinates [a,b] and [c,d]. Find the distance between them.
+*/
+
 #include <iostream>
 #include <cmath>
 
