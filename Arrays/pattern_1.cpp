@@ -1,3 +1,17 @@
+/*
+	--- Question Statement ---
+	
+	Write a program to print the following pattern for given n.
+	n = 5
+	0 0 0 0 0
+	1 0 0 0 1
+	1 1 0 1 1
+	1 1 1 1 1
+	1 1 0 1 1
+	1 0 0 0 1
+	0 0 0 0 0 
+*/
+
 #include <iostream>
 
 using namespace std;
