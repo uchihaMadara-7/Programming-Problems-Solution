@@ -1,3 +1,9 @@
+/*
+	--- Question Statement ---
+	
+	Template in c++ to find square of number. template is a used to make generic methods. 
+*/
+
 #include <iostream>
 
 using namespace std;
