@@ -1,3 +1,12 @@
+/*
+	--- Question Statement ---
+	
+	Write a program to print all the prime factors of given number under square root complexity.
+	Example : n = 24
+	output:   2 (3)
+		  3 (1)
+*/
+
 #include <iostream>
 #include <cmath>
 
