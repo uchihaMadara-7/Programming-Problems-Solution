@@ -1,3 +1,12 @@
+/*
+	--- Question Statement ---
+	
+	You are in an infinite 2D grid where you can move in any of the 8 directions. You are given a sequence of points
+	and the order in which you need to cover the points. Give the minimum number of steps in which you can achieve it.
+	You start from the first point.
+	Example : [(0,0),(1,1),(2,2)] output: 2
+*/
+
 #include <iostream>
 #include <utility>
 #include <cmath>
