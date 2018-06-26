@@ -1,3 +1,9 @@
+/*
+	--- Question Statement ---
+	
+	Find maximum of an array using recursion.
+*/
+
 #include <iostream>
 #include <climits>
 
