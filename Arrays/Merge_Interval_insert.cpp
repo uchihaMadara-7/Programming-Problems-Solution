@@ -1,3 +1,12 @@
+/*
+	--- Question Statement ---
+	
+	Given a set of non-overlapping intervals, insert a new interval into the intervals(merge if necessary). You may assume
+	that the intervals were intially sorted according to their start times.
+	Example: [1,3][6,9] output: [1,5][6,9]
+	Example2 : [1,2][3,5][6,7][8,10][12,16] output: [1,2][3,10][12,16]
+*/
+
 #include <iostream>
 #include <utility>
 #include <vector>
