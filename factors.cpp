@@ -1,3 +1,9 @@
+/*
+	--- Question Statement ---
+	
+	Print all the factors of a number.
+*/
+
 #include <iostream>
 #include <cmath>
 
