@@ -1,3 +1,10 @@
+/*
+	--- Question Statement ---
+	
+	Given a list of non-negative numbers, arrange them such that they form the largest number.
+	Example: [3, 30, 34, 5, 9] output: 9534330
+*/
+
 #include <iostream>
 #include <string>
 #include <algorithm>
