@@ -1,3 +1,9 @@
+/*
+	--- Question Statement ---
+	
+	Write a program to find the maximum in a stream of integers until -1 is entered which is used as a delimiter.
+*/
+
 #include <iostream>
 #include <climits>
 
