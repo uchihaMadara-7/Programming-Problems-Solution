@@ -1,3 +1,12 @@
+/*
+	--- Question Statement ---
+	
+	Given a matrix of 0 and 1 only. Change the rows and cols of a matrix to all zero if an element is found to be zero.
+	Example : 1 0 1       output:  0 0 0
+	          1 1 1                1 0 1
+		  1 1 1                1 0 1
+*/
+
 #include <iostream>
 using namespace std;
 
