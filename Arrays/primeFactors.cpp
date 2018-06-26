@@ -3,7 +3,7 @@
 	
 	Write a program to print all the prime factors of a number. In other words, prime factorisation.
 	Example: n = 24
-	output: 2 (4)
+	output: 2 (3)
 		3 (1)
 */
 
