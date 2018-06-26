@@ -1,3 +1,9 @@
+/*
+	--- Question Statement ---
+	
+	Write a function to count all the possible paths from a coordinate [m, n] to [0, 0] by taking steps either left or down.
+*/
+
 #include <iostream>
 
 using namespace std;
