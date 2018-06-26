@@ -1,3 +1,10 @@
+/*
+	--- Question Statement ---
+	
+	Add 1 to a number represented as an array. The number can be too large to be stored in an integer.
+	Example [1,2,3] output: [1,2,4]
+*/
+
 #include <iostream>
 
 using namespace std;
