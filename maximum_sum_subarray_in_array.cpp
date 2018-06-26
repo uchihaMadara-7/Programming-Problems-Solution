@@ -1,3 +1,14 @@
+/*
+	--- Question Statement ---
+	
+	Find out the maximum sub array of non-negative numbers from an array. The sub array should be continuous. That is, a sub array
+	created by choosing the second and fourth element and skipping the third element is invalid. Maximum sub-array is defined
+	in terms of the sum of the elements in the sub-array. Sub-array A is greater that sub-array B if (sumA)>(sumB)
+	Example : [1, 2, 5, -7 , 2, 3] output: [1, 2, 5]
+	
+	If there is a tie, return greater length segment. if there is still a tie return segment with minimum index.
+*/
+
 #include <iostream>
 
 using namespace std;
@@ -53,8 +64,7 @@ int main()
 	}
 	else if(currentSum == maxSum && maxLength < segmentLength)
 	{
-		maxLength = n -
-        lastIndex - 1;
+		maxLength = n - lastIndex - 1;
 		actualIndex = n;
 	}
 
