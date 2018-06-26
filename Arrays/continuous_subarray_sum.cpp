@@ -1,3 +1,11 @@
+/*
+	--- Question Statement ---
+	
+	Given an unsorted array of integers, find a continuous subarray which adds to a given number.
+	Example: [1, 4, 20, 3, 10, 5] sum = 33
+		 output: between indices 2 and 4
+*/
+
 #include <iostream>
 
 using namespace std;
