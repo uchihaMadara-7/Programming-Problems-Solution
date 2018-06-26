@@ -1,3 +1,12 @@
+/*
+	--- Question Statment ---
+	
+	Find all the number of paths that are possible to reach from [m,n] to reach [0,0]. The only way to move is to go either left
+	or down. 
+	Example : n = 2, n = 2
+	output: 6
+*/
+
 #include <iostream>
 
 using namespace std;
