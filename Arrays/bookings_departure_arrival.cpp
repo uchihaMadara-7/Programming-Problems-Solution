@@ -1,3 +1,15 @@
+/*
+	--- Question Statement ---
+	
+	A hotel manager has to process N advance of rooms for the next season. His hotel has k rooms. Bookings contain arrival
+	date and a departure date. He wants to find out whether there are enough rooms in the hotel to satisfy the demand.
+	Write a program that solves this problem in O(NlogN).
+	Input : Arrival [ 1 3 5]
+	        Depart  [ 2 6 8]
+		k = 1
+	output: False (No rooms available for 5)
+*/
+
 #include <iostream>
 #include <utility>
 #include <algorithm>
