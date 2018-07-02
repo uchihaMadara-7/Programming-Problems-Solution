@@ -1,3 +1,13 @@
+/*
+	--- Question Statement ---
+	
+	Given an array of elements in range 1 to n such that one element is missing in that range and one element is repeated.
+	Find the missing and repeated element.
+	
+	Example : n = 6, array = [ 5 3 4 2 3 1 ]
+	output : mssing = 6, repeated = 3
+*/
+
 #include <iostream>
 #include <cmath>
 
