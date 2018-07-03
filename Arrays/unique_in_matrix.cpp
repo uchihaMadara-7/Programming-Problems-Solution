@@ -1,3 +1,15 @@
+/*
+	--- Question Statment ---
+	
+	Given a matrix of size n*n, Find and print total number of unique elements in the matrix. Unique elements are those that
+	occur only once.
+	Example : 1 2 3
+	          4 5 6
+		  1 2 7
+	output : 3 4 5 6 7
+	         total = 5
+*/
+
 #include <iostream>
 #include <map>
 
