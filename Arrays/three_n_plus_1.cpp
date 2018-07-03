@@ -1,3 +1,17 @@
+/*
+	--- Question Statement ---
+	
+	Given a range [n, m] (both including). Find the number in that range which takes maximum number of steps in 3n+1 problem.
+	The 3n+1 problem:    if n is odd :  n = 3n+1
+			     if n is even : n = n/2
+	Example : [3,5]
+	output: 3 (max steps = 8)
+	
+	Explanation: 3 = [3 10 5 16 8 4 2 1]  steps = 8 
+                     4 = [4 2 1] steps = 3
+		     5 = [16 8 4 2 1] steps = 5
+*/
+
 #include <iostream>
 #include <vector>
 #include <climits>
