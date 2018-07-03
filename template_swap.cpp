@@ -1,3 +1,9 @@
+/*
+	--- Question Statment ---
+	
+	Write a program to implement a template in c++ for swapping two variables (generic program)
+*/
+
 #include <iostream>
 
 using namespace std;
