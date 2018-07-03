@@ -1,3 +1,7 @@
+/*
+	Find total number of pairs in two arrays such that a[i]^b[j] > b[i]^a[j] for i < j
+*/
+
 #include <iostream>
 #include <cmath>
 
