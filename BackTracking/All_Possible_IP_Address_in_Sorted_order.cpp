@@ -17,7 +17,7 @@
 
 using namespace std;
 
-void allPossibleIP(string str, int pos, int dots, int size)
+void allPossibleIP(string str, int size, int pos = 0, int dots = 0)
 {
 	if(dots == 3)
 	{
@@ -32,7 +32,7 @@ void allPossibleIP(string str, int pos, int dots, int size)
         {
             if(i-pos > 0 && i-pos <=3 && (str[pos] !='0' || i-pos == 1) && stoul(str.substr(pos, i-pos)) <= 255)
             {
-                allPossibleIP(str.substr(0,i)+'.'+str.substr(i,str.size()-i), i+1, dots+1, size+1);
+                allPossibleIP(str.substr(0,i)+'.'+str.substr(i,str.size()-i), size+1, i+1, dots+1);
             }
         }
 	}
@@ -43,6 +43,6 @@ int main()
 	string str;
 	cin >> str;
 
-	allPossibleIP(str, 0, 0, str.size());
+	allPossibleIP(str, str.size());
 	return 0;
 }
