@@ -28,13 +28,13 @@ void allPossibleIP(string str, int size, int pos = 0, int dots = 0)
 
 	for(int i=pos;i<size;i++)
 	{
-        if(str[i-1] != '.')
-        {
-            if(i-pos > 0 && i-pos <=3 && (str[pos] !='0' || i-pos == 1) && stoul(str.substr(pos, i-pos)) <= 255)
-            {
-                allPossibleIP(str.substr(0,i)+'.'+str.substr(i,str.size()-i), size+1, i+1, dots+1);
-            }
-        }
+        	if(str[i-1] != '.')
+        	{
+            		if(i-pos > 0 && i-pos <=3 && (str[pos] !='0' || i-pos == 1) && stoul(str.substr(pos, i-pos)) <= 255)
+           		{
+                		allPossibleIP(str.substr(0,i)+'.'+str.substr(i,str.size()-i), size+1, i+1, dots+1);
+            		}
+        	}
 	}
 }
 
