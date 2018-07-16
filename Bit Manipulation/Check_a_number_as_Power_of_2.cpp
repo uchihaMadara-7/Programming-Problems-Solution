@@ -2,13 +2,13 @@
 
 using namespace std;
 
-bool isPower(int n)
+bool isPower(long long int n)
 {
-	int bits = sizeof(int) * 8;
+	int bits = sizeof(long long int) * 8;
 	int count = 0;
 	for(int i=0;i<bits;i++)
 	{
-		if(n & 1 << i)
+		if(n & (long long int)1 << i)
 			count ++;
 	}
 
@@ -19,7 +19,7 @@ bool isPower(int n)
 
 int main()
 {
-	int n;
+	long long int n;
 	cin >> n;
 
 	if(isPower(n))
